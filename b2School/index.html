@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- navigation bar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <!-- navigation bar -->
+    <title>b2School</title>
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <div class="nav">
+        <div class="left-nav">
+            <img src="b2School.png" alt="logo" width="55px" height="55px" class="logo">
+        </div>
+        <div class="right-nav">
+            <a href="#" class="nav-content">Home</a>
+            <a href="library-Bihar.html" class="nav-content">Library</a>
+            <a href="#" class="nav-content">Translator</a>
+            <a href="#" class="nav-content">About us</a>
+            <!-- google-translate-icon -->
+            <div id="google_translate_element" class="nav-content"></div>
+
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+                }
+            </script>
+
+            <script type="text/javascript"
+                src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <!-- google-translate-icon -->
+        </div>
+        <div class="nav-icon">
+            <a href="#"><i class="fa-solid fa-house"></i></a>
+            <a href="library-Bihar.html"><i class="fa-solid fa-book"></i></a>
+            <a href=" "><i class="fa-solid fa-language"></i></a>
+        </div>
+    </div>
+    <!-- navigation bar -->
+
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* navigation bar */
+    .nav {
+        background-color: #5372F0;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .right-nav {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .left-nav {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .nav-content {
+        margin: 10px;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+
+    .nav-icon {
+        display: none;
+        color: #183153;
+        padding: 10px;
+    }
+
+    i {
+        margin: 5px;
+    }
+
+    @media only screen and (max-width: 750px) {
+        .nav-content {
+            display: none;
+        }
+
+        .nav-icon {
+            display: block;
+        }
+
+        .logo {
+            height: 35px;
+            width: 35px;
+        }
+    }
+</style>
+
+</html>
